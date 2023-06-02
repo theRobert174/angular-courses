@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent {
+  public name:string = 'iron man';
+  public age: number = 45;
+
 
 }
