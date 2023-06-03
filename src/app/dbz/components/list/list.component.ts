@@ -20,7 +20,7 @@ export class ListComponent {
   ];
 
   onDeleteCharacter(index: number):void {
-    console.log(index);
+    console.log(index,'listTS');
     this.onDelete.emit(index);
   }
 }
